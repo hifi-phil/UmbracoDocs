@@ -11,7 +11,7 @@ This document provides practical examples of how to use the Editor MCP for commo
 - [Content Management](#content-management)
 - [Publishing Workflows](#publishing-workflows)
 - [Media Management](#media-management)
-- [Translation and Localisation](#translation-and-localisation)
+- [Translation and Localization](#translation-and-localization)
 - [Content Health and SEO](#content-health-and-seo)
 - [Content Reporting](#content-reporting)
 - [Site Structure Analysis](#site-structure-analysis)
@@ -97,14 +97,14 @@ This document provides practical examples of how to use the Editor MCP for commo
 
 ## Media Management
 
-5. **Browsing and Organising Media**
+5. **Browsing and Organizing Media**
    - Search for specific media items
 
      **Example Prompt:** "Find the team photo uploaded last month"
 
      **Required Tool Collections:** `media`
 
-   - Create folder structures to organise media
+   - Create folder structures to organize media
 
      **Example Prompt:** "Create a new folder called '2025 Campaign Assets' in the Marketing folder"
 
@@ -129,7 +129,7 @@ This document provides practical examples of how to use the Editor MCP for commo
 
      **Required Tool Collections:** `media-management`
 
-## Translation and Localisation
+## Translation and Localization
 
 7. **Managing Language Variants**
    - Create a new language variant for a page
@@ -153,7 +153,7 @@ This document provides practical examples of how to use the Editor MCP for commo
 8. **Dictionary Management**
    - Manage UI labels and static text translations
 
-     **Example Prompt:** "Add a dictionary item 'Buttons.ReadMore' with English 'Read More' and Danish 'Laes Mere'"
+     **Example Prompt:** "Add a dictionary item `Buttons.ReadMore` with English 'Read More' and Danish 'Læs Mere'"
 
      **Required Tool Collections:** `dictionary`, `language`
 
@@ -207,9 +207,9 @@ This document provides practical examples of how to use the Editor MCP for commo
 ## Content Reporting
 
 12. **Content Analytics**
-    - See a breakdown of content by document type
+    - See a breakdown of content by Document Type
 
-      **Example Prompt:** "How many pages do we have of each document type?"
+      **Example Prompt:** "How many pages do we have of each Document Type?"
 
       **Required Tool Collections:** `content-reporting`
 
@@ -217,7 +217,7 @@ This document provides practical examples of how to use the Editor MCP for commo
 
       **Example Prompt:** "What pages were changed this week?"
 
-      **Required Tool Collections:** `content-reporting`
+     **Required Tool Collections:** `content-reporting`
 
 ## Site Structure Analysis
 
@@ -258,7 +258,7 @@ This document provides practical examples of how to use the Editor MCP for commo
 15. **Batch Content Updates**
     - Update a property on multiple pages
 
-      **Example Prompt:** "Set the 'showBanner' property to false on all Event pages"
+      **Example Prompt:** "Set the `showBanner` property to false on all Event pages"
 
       **Required Tool Collections:** `content`, `bulk-operations`
 

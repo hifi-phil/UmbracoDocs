@@ -36,7 +36,7 @@ Replace `https://your-editor-mcp-url.example.com/sse` with the actual URL provid
 
 ## Verifying the Connection
 
-After restarting, you should see the Umbraco MCP tools listed in the tools panel. Try a simple command to verify:
+After restarting, you should see the Umbraco MCP tools listed in the tools panel. Try a command to verify:
 
 ```
 Search for all content pages

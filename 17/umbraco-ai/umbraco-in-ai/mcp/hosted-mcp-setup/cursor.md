@@ -45,7 +45,7 @@ Replace the URL with the actual URL provided by your hosting environment.
 
 ## Verifying the Connection
 
-After configuration, you should see the Umbraco MCP tools listed in Cursor's tool panel. Try a simple command to verify:
+After configuration, you should see the Umbraco MCP tools listed in Cursor's tool panel. Try a command to verify:
 
 ```
 Search for all content pages

@@ -53,7 +53,7 @@ To reconnect after configuration changes, use:
 
 ## Verifying the Connection
 
-Try a simple command to verify the connection is working:
+Try a command to verify the connection is working:
 
 ```
 Search for all content pages

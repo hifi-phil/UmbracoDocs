@@ -4,7 +4,7 @@ description: Host set up for GitHub Copilot
 
 # GitHub Copilot
 
-GitHub Copilot supports MCP servers through Visual Studio Code. You can connect to a hosted Umbraco MCP server to manage your Umbraco site from within VS Code.
+GitHub Copilot supports MCP servers through Visual Studio Code. You can connect to a hosted Umbraco MCP server to manage your Umbraco site from within Visual Studio Code.
 
 {% hint style="info" %}
 The examples below use the Editor MCP Server. Replace the URL if you are using a different hosted Umbraco MCP server.
@@ -12,9 +12,9 @@ The examples below use the Editor MCP Server. Replace the URL if you are using a
 
 ## Configuration
 
-### Using VS Code Settings
+### Using Visual Studio Code Settings
 
-1. Open VS Code with GitHub Copilot installed.
+1. Open Visual Studio Code with GitHub Copilot installed.
 2. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`).
 3. Search for **MCP: Add Server**.
 4. Select **HTTP (Server-Sent Events)** as the transport type.
@@ -28,7 +28,7 @@ https://your-editor-mcp-url.example.com/sse
 
 ### Manual Configuration
 
-You can also add the server to your `.vscode/mcp.json` file:
+You can also add the server to your Visual Studio Code `.vscode/mcp.json` file:
 
 ```json
 {
@@ -55,7 +55,7 @@ GitHub Copilot may restart MCP servers during certain actions such as reloading 
 
 ## Verifying the Connection
 
-Try a simple command in Copilot Chat to verify:
+Try a command in Copilot Chat to verify:
 
 ```
 Search for all content pages

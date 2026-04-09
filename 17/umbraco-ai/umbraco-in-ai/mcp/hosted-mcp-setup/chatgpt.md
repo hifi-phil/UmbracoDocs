@@ -29,7 +29,7 @@ Replace the URL with the actual URL provided by your hosting environment.
 
 ## Verifying the Connection
 
-Once connected, you should see the Umbraco tools available in your ChatGPT conversation. Try a simple command to verify:
+Once connected, you should see the Umbraco tools available in your ChatGPT conversation. Try a command to verify:
 
 ```
 Search for all content pages

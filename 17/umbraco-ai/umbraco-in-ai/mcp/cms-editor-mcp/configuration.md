@@ -19,7 +19,7 @@ The Editor MCP ships with the following modes:
 | Mode              | Collections                                      | Description                                          |
 | ----------------- | ------------------------------------------------ | ---------------------------------------------------- |
 | `content`         | `content`, `publishing`, `versioning`            | Content editing, publishing, and version history.    |
-| `media`           | `media`, `media-management`                      | Browse, upload, and organise media.                  |
+| `media`           | `media`, `media-management`                      | Browse, upload, and organize media.                  |
 | `blueprints`      | `blueprint`                                      | Page blueprints and templates.                       |
 | `translation`     | `language`, `translation`, `dictionary`           | Multi-language content and dictionary management.    |
 | `tags`            | `tag`                                            | Tag browsing and filtering.                          |

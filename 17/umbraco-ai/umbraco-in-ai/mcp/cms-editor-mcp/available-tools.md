@@ -36,11 +36,11 @@ The names shown in parentheses, for example, `(content)` or `(media)` refer to t
 Search, browse, and manage content pages.
 
 - `search-content` — Search for content pages by name or text. Returns a list of matching pages with their names and IDs. Use `get-page` with an ID from the results to retrieve full page content.
-- `get-page` — Get the full details of a content page including all its fields and values. Block-based properties (BlockList, BlockGrid, Rich Text) are summarised with a block count. Use `inspect-blocks` to see their full structure.
+- `get-page` — Get the full details of a content page including all its fields and values. Block-based properties (BlockList, BlockGrid, Rich Text) are summarized with a block count. Use `inspect-blocks` to see their full structure.
 - `list-children` — List content pages in the site tree. Shows child pages under a parent, or root-level pages if no parent is specified.
-- `list-document-types` — List available document types that can be used to create new pages. Returns the ID, alias, and name of each type.
+- `list-document-types` — List available Document Types that can be used to create new pages. Returns the ID, alias, and name of each type.
 - `inspect-blocks` — Inspect the block structure of a content page. Shows each block's type, unique key, and property values. Use this before `edit-block` to understand how content is structured.
-- `create-page` — Create a new content page as a draft. The page will not be published automatically. Call `list-document-types` first to find a valid document type ID.
+- `create-page` — Create a new content page as a draft. The page will not be published automatically. Call `list-document-types` first to find a valid Document Type ID.
 - `edit-page` — Update specific fields on a content page. Changes are saved but not published. Call `get-page` first to discover valid property aliases.
 - `edit-block` — Update properties within a specific block (BlockList, BlockGrid, or Rich Text block). Use `inspect-blocks` first to find the property alias and content key.
 - `delete-page` — Move a content page to the recycle bin. The page can be restored later if needed.
@@ -70,7 +70,7 @@ Browse, search, and view media items.
 
 ## Media Management (`media-management`)
 
-Upload, organise, delete, and restore media items.
+Upload, organize, delete, and restore media items.
 
 - `upload-media` — Upload a file from a local path to the media library. Optionally specify a target folder. Call `list-media-types` first to find a valid media type ID.
 - `create-media-folder` — Create a new folder in the media library.
@@ -84,7 +84,7 @@ List, view, and create page blueprints.
 
 - `list-blueprints` — List available page blueprints (templates with pre-filled content).
 - `get-blueprint` — Get the full details of a page blueprint including its pre-filled property values.
-- `create-blueprint` — Save an existing page as a reusable blueprint. The blueprint preserves the page's document type and property values.
+- `create-blueprint` — Save an existing page as a reusable blueprint. The blueprint preserves the page's Document Type and property values.
 
 ## Translation (`translation`)
 
@@ -138,7 +138,7 @@ Content lifecycle, freshness, and translation reporting.
 - `report-stale-content` — Find pages not updated within a given number of days. Default threshold is 180 days.
 - `report-unpublished` — Find pages that are in draft state or have been unpublished.
 - `report-recently-changed` — Find pages changed within a recent time period. Default is the last 7 days.
-- `report-content-by-type` — Breakdown of content pages by document type. Shows how many pages use each type with example pages.
+- `report-content-by-type` — Breakdown of content pages by Document Type. Shows how many pages use each type with example pages.
 - `report-translation-coverage` — Translation coverage matrix showing which pages have which language variants.
 
 ## Site Structure (`site-structure`)
@@ -180,7 +180,7 @@ Search, view, create, update, and delete members.
 
 ## Member Groups (`member-group`)
 
-Manage member groups for organising members.
+Manage member groups for organizing members.
 
 - `list-member-groups` — List all member groups.
 - `create-member-group` — Create a new member group.

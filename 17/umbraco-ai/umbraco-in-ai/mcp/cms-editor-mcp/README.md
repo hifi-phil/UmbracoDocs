@@ -30,17 +30,17 @@ The Editor MCP Server acts as a bridge between your Umbraco instance and your AI
 
 The Editor MCP Server is designed for content editors, content managers, and other non-developer roles working within Umbraco.
 
-Unlike the [Developer MCP Server](../cms-developer-mcp/), which exposes the full breadth of the Management API for development tasks, the Editor MCP focuses on day-to-day editorial workflows:
+Unlike the [Developer MCP Server](../cms-developer-mcp/), the Editor MCP focuses on day-to-day editorial workflows rather than development tasks.
 
 * **Content management**
 
-  Create, edit, publish, and organise content pages through conversational commands. Work with block editors, manage drafts, and handle publishing workflows.
+  Create, edit, publish, and organize content pages through conversational commands. Work with block editors, manage drafts, and handle publishing workflows.
 
 * **Media management**
 
-  Upload, organise, and manage media files. Create folders, move items, and keep your media library tidy.
+  Upload, organize, and manage media files. Create folders, move items, and keep your media library tidy.
 
-* **Translation and localisation**
+* **Translation and localization**
 
   Create language variants, copy content between languages, and track translation coverage across your site.
 
@@ -50,16 +50,16 @@ Unlike the [Developer MCP Server](../cms-developer-mcp/), which exposes the full
 
 * **Bulk operations**
 
-  Publish, unpublish, move, or update properties across multiple pages at once, with confirmation before every action.
+  Publish, unpublish, move, or update properties across multiple pages at once. Every action requires confirmation before it executes.
 
 * **Member management**
 
-  Search, create, update, and organise members and member groups.
+  Search, create, update, and organize members and member groups.
 
 * [**And many more**](scenarios.md)
 
 {% hint style="info" %}
-The Editor MCP is built for safe, everyday use. All write operations require confirmation before they execute, and destructive actions are clearly flagged.
+The Editor MCP is built for safe, everyday use. All write operations require confirmation before they execute. Destructive actions are flagged before you approve them.
 {% endhint %}
 
 ## Getting Started

@@ -25,14 +25,14 @@ Every time you interact with the AI, the entire context is sent to the model. Th
 Large prompts and bloated tool collections lead to slower and less accurate results. They also increase cost and environmental impact.
 
 {% hint style="info" %}
-Optimising your context makes your work faster, cheaper, and greener.
+Optimizing your context makes your work faster, cheaper, and greener.
 {% endhint %}
 
 ## Recommended Workflow
 
 1. **Start with a clean session.** Open a new session in your AI client. This ensures there is no leftover context from a previous task.
 
-2. **Decide on the tools or mode.** Identify which MCP tools you need for the specific task. Use [modes](../cms-editor-mcp/configuration.md) to enable groups of related tools.
+2. **Decide on the tools or mode.** Identify which MCP tools you need for the specific task. Use [modes](../configuration.md) to enable groups of related tools.
 
 3. **Run your prompt or workflow.** Ask the AI to perform the task. Keep it focused on the tools you have enabled.
 
@@ -59,11 +59,11 @@ AI assistants have a limited context window, and every active tool, message, and
 
 - **Use built-in compression tools (if available)**
 
-Some clients (for example, Claude Code) include options to automatically compress or summarise earlier parts of the conversation. Use these to reduce noise while keeping relevant information accessible.
+Some clients (for example, Claude Code) include options to automatically compress or summarize earlier parts of the conversation. Use these to reduce noise while keeping relevant information accessible.
 
 - **Checkpoint progress into a file**
 
-If the context is filling up too quickly, ask the AI to generate a summary of progress so far. You can then start a new session and provide this summary at the beginning.
+If the context is filling up too quickly, ask the AI to generate a summary of progress so far. You can then start a new session and provide the summary at the beginning.
 
 ## Use Instruction Files to Guide the AI
 
